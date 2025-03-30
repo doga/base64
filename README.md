@@ -15,7 +15,7 @@ description = '''
 </details>
 
 ```javascript
-import {stringToBase64, base64ToString} from "./mod.mjs";
+import {stringToBase64, base64ToString} from "https://esm.sh/gh/doga/base64@1.0.0/mod.mjs";
 
 const
 strIn  = 'hello',
@@ -36,7 +36,7 @@ strIn: "hello", base64: "aGVsbG8=", strOut: "hello"
 Run the example above by typing this in your terminal (requires [Deno](https://deno.com/) 2+):
 
 ```shell
-deno run --allow-net --allow-run --allow-env --allow-read jsr:@andrewbrey/mdrb@3.0.4 --dax=false --mode=isolated README.md
+deno run --allow-net --allow-run --allow-env --allow-read jsr:@andrewbrey/mdrb@3.0.4 --dax=false --mode=isolated https://raw.githubusercontent.com/doga/base64/refs/heads/main/README.md
 ```
 
 ∎
